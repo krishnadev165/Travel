@@ -1,3 +1,5 @@
+alert("For Better view, Please view this Web Page in 1920px X 1080px" )
+
 function functiondropdown() {
 
     if(document.getElementById("dropdownoptions").style.display == "block"){

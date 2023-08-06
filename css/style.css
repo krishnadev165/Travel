@@ -563,8 +563,11 @@
 /* Booking starts */
 
 .booking {
-    margin-top: 200px;
+    margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     width: 100%;
+    overflow: hidden;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -797,6 +800,7 @@
     width: 690px;
     height: auto;
     position: absolute;
+    overflow: hidden;
     z-index: -2;
 }
 
@@ -837,7 +841,6 @@
 /* holiday banner starts */
 
 .holidaybanner {
-    margin-top: 100px;
     height: 400px;
     background-image: url("../images/holidaybanner/banner.jpg");
     background-size: cover;
@@ -1085,5 +1088,6 @@ color: #FFFFFF;
 
 /* explore ends */
 
-.star{
+iframe{
+    color: red;
 }
