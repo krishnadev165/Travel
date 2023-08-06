@@ -453,12 +453,13 @@
     0% {}
 
     30% {
-        transform: translate(10px, 10px);
-        -webkit-transform: translate(10px, 10px);
-        -moz-transform: translate(10px, 10px);
-        -ms-transform: translate(10px, 10px);
-        -o-transform: translate(10px, 10px);
-    }
+        transform:translate(10px,10px),;
+        -webkit-transform:translate(10px,10px),;
+        -moz-transform:translate(10px,10px),;
+        -ms-transform:translate(10px,10px),;
+        -o-transform:translate(10px,10px),;
+        -webkit-transform: translate(10px, 10px), ;
+}
 
     66% {
         transform: translate(-10px, 5px);
@@ -1088,6 +1089,12 @@ color: #FFFFFF;
 
 /* explore ends */
 
-iframe{
-    color: red;
+/*  */
+
+
+.lo{
+    fill: #DF6951;
+    color: #DF6951;
+    filter: invert(47%) sepia(41%) saturate(6504%) hue-rotate(204deg) brightness(90%) contrast(79%);
+    -webkit-filter: invert(47%) sepia(41%) saturate(6504%) hue-rotate(204deg) brightness(90%) contrast(79%);
 }
