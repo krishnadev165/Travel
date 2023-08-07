@@ -453,13 +453,13 @@
     0% {}
 
     30% {
-        transform:translate(10px,10px),;
-        -webkit-transform:translate(10px,10px),;
-        -moz-transform:translate(10px,10px),;
-        -ms-transform:translate(10px,10px),;
-        -o-transform:translate(10px,10px),;
+        transform: translate(10px, 10px), ;
         -webkit-transform: translate(10px, 10px), ;
-}
+        -moz-transform: translate(10px, 10px), ;
+        -ms-transform: translate(10px, 10px), ;
+        -o-transform: translate(10px, 10px), ;
+        -webkit-transform: translate(10px, 10px), ;
+    }
 
     66% {
         transform: translate(-10px, 5px);
@@ -960,11 +960,11 @@
     line-height: 24px;
     color: #FFFFFF;
     background-color: #DF6951;
-    border-radius: 100px ;
-    -webkit-border-radius: 100px ;
-    -moz-border-radius: 100px ;
-    -ms-border-radius: 100px ;
-    -o-border-radius: 100px ;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
 }
 
 .promotion>.content>.cards>.card1 {
@@ -1025,16 +1025,16 @@
 
 /* explore starts */
 
-.explore{
+.explore {
     margin-top: 200px;
     display: flex;
     height: 400px;
 }
 
-.explore>.nature{
+.explore>.nature {
     height: 100%;
     width: 50%;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(../images/explore/nature.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/explore/nature.jpg);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -1042,10 +1042,10 @@
     justify-content: center;
 }
 
-.explore>.cities{
+.explore>.cities {
     height: 100%;
     width: 50%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(../images/explore/city.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/explore/city.jpg);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -1053,23 +1053,23 @@
     justify-content: center;
 }
 
-.explore h3{
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 27px;
-letter-spacing: 0.1em;
-color: #FFEFEC;
+.explore h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.1em;
+    color: #FFEFEC;
 }
 
-.explore h1{
-font-family: 'Volkhov';
-font-style: normal;
-font-weight: 700;
-font-size: 50px;
-line-height: 71px;
-color: #FFFFFF;
+.explore h1 {
+    font-family: 'Volkhov';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 71px;
+    color: #FFFFFF;
 }
 
 .explore button {
@@ -1089,12 +1089,172 @@ color: #FFFFFF;
 
 /* explore ends */
 
-/*  */
+/* Trendy */
 
-
-.lo{
-    fill: #DF6951;
-    color: #DF6951;
-    filter: invert(47%) sepia(41%) saturate(6504%) hue-rotate(204deg) brightness(90%) contrast(79%);
-    -webkit-filter: invert(47%) sepia(41%) saturate(6504%) hue-rotate(204deg) brightness(90%) contrast(79%);
+.trendy {
+    width: 100%;
+    margin-top: 112px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+
+.trendy>h3 {
+    color: #DF6951;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.trendy>h1 {
+    width: 580px;
+    color: #181E4B;
+    font-size: 50px;
+    line-height: 71px;
+    text-align: center;
+}
+
+.trendy>.cards {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 100px;
+    width: 100%;
+}
+
+.trendy>.cards>.card {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.trendy>.cards>.card>.image {
+    position: relative;
+}
+
+.trendy>.cards>.card>.image>.flag {
+    position: absolute;
+    bottom: -38px;
+    left: 30px;
+    height: 76px;
+    width: 76px;
+    object-fit: cover;
+    border: 6px solid white;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    box-shadow: inset -4px 11px 18px rgba(0, 0, 0, 0.25);
+    filter: drop-shadow(6px 14px 27px rgba(0, 0, 0, 0.15));
+}
+
+.trendy>.cards>.card>.image>.bg {
+    height: 312px;
+    object-fit: cover;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.trendy>.cards>.card>.daynpeople {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    margin-top: 38px;
+}
+
+.trendy>.cards>.card>.daynpeople>p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.8085px;
+    line-height: 25px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #7D7D7D;
+}
+
+.trendy>.cards>.card>.name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trendy>.cards>.card>.name>h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 1000;
+    font-size: 29.0329px;
+    line-height: 50px;
+    color: #2F2F2F;
+}
+
+.trendy>.cards>.card>.location {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.trendy>.cards>.card>.location>p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.8085px;
+    line-height: 25px;
+    color: #7D7D7D;
+}
+
+.trendy>.cards>.card>.cost {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 29.0329px;
+    line-height: 44px;
+    color: #DF6951;
+}
+
+.trendy>.cards>.card>.cost>span {
+    text-decoration: line-through;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    color: #7D7D7D;
+}
+
+.trendy>.cards>.card>p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.2244px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+.trendy>.cards>.card>button {
+    margin-top: 25px;
+    padding: 16px 24px;
+    border: 0px;
+    width: 135px;
+    background-color: #DF6951;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 12.7713px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    letter-spacing: 0.6px;
+}
+
