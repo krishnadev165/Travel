@@ -3,6 +3,10 @@
     padding: 0px;
 }
 
+html {
+    zoom: 80%;
+  }
+
 /* navbanner starts */
 
 .navbanner {
